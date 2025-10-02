@@ -1,0 +1,13 @@
+
+import React from 'react';
+
+const About = () => {
+  return (
+    <div>
+      <h1>À propos</h1>
+      <p>Chantal Peer est une courtepointière passionnée.</p>
+    </div>
+  );
+};
+
+export default About;
