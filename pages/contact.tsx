@@ -1,15 +1,13 @@
 
 import React from 'react';
+import styles from '../styles/Contact.module.css';
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>Vous pouvez me contacter aux coordonnées suivantes :</p>
-      <ul>
-        <li>Email: chantal.peer@email.com</li>
-        <li>Téléphone: 01 23 45 67 89</li>
-      </ul>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Contact Me</h1>
+      <p className={styles.subtitle}>You can reach me at the following email address:</p>
+      <a href="mailto:chantal.peer@example.com" className={styles.email}>chantal.peer@example.com</a>
     </div>
   );
 };
